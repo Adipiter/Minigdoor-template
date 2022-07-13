@@ -1,0 +1,103 @@
+.select {
+    cursor: pointer;
+    display: none;
+    position: relative;
+    font-size: 16px;
+    color: #7b7b7b;
+}
+
+.profit_calculator{
+    float: left;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    z-index: 9;
+    overflow: hidden;
+    background: url(images/plan.html) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom:28px;
+}
+
+.profit_calculator::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(63 81 181 / 10%);
+}
+
+.price_table_ul li {
+font-size: 17px;
+    padding: 22px 6px 6px 6px;
+    z-index: 9999;
+    position: relative;
+    background: #00000069;
+    color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 8px;
+    border-radius: 30px;
+    /* border: 2px solid #ffffff54; */
+    /* box-shadow: 0px 0px 5px #ffffff69; */
+    font-weight: 700;
+}
+
+.profit_calculator {border:none;}
+.profit_calculator span {
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    width: 100%;
+    background: #00000069;
+    padding: 8px;
+    display: block;
+    z-index: 9999;
+    position: relative;
+}
+
+.profit_calculator input {
+    letter-spacing: 1px;
+    font-size: 15px;
+    padding: 6px;
+    z-index: 9999;
+    position: relative;
+    background: #00000069;
+    color: #fff;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 30px;
+    border: 2px solid #ffffff54;
+    box-shadow: 0px 0px 5px #ffffff69;
+    text-align: center;
+    margin-top:30px;
+}
+
+.li_cal{
+    width: 100% !important;
+    border-radius: 6px !important;
+    margin-top: 22px !important;
+}
+
+.profit_calculator a {
+    width: 140px;
+    line-height: 43px;
+    border: 2px solid #ffffff;
+    font-weight: 900;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-top: 28px;
+    z-index: 9999;
+    position: relative;
+}
+
+.profit_calculator a:hover {
+    background: #fff;
+    color: #000 !important;
+}
